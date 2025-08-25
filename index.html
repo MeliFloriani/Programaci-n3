@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La buena mesa</title>
+</head>
+<body>
+    <header>
+        <h1>La buena mesa</h1>
+        <p>Comisa casera, sabor real</p>
+
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#reserva">Reservas</a></li>
+                <li><a href="ubicacion.html">¿Como llegar?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Menu del día</h2>
+
+            <article>
+                <h3>Costeletas con pure</h3>
+                <p>Costeletas de cerdo o carne, acompañadas con pure.</p>
+            </article>
+            <article>
+                <h3>Pollo asado</h3>
+                <P>Pollo asado con papas.</P>
+            </article>
+            <article>
+                <h3>Ensalada rusa</h3>
+                <p>Ensalada clasica con papas, zanahorias y mayonesa.</p>
+            </article>
+
+        </section>
+        <hr>
+        <aside id="nosotros">
+            <h2>Sobre nosotros</h2>
+            <p>Somos un restaurante familiar con más de 50 años de trayectoria, reconocido por mantener viva la tradición gastronómica transmitida de generación en generación. Desde nuestros inicios, hemos trabajado con dedicación para ofrecer platos caseros preparados con ingredientes frescos y de calidad, combinando recetas clásicas con un toque de innovación. Actualmente, el restaurante es dirigido por Melina Floriani y Elio Bonafede, quienes continúan con el legado familiar, cuidando cada detalle para que nuestros clientes disfruten no solo de una comida deliciosa, sino también de un ambiente cálido y acogedor que los haga sentir como en casa.</p>
+        </aside>
+        <hr>
+        <section id="reserva">
+            <h2>Reserva tu mesa</h2>
+            <form>
+                <fieldset>
+                    <legend>Datos de la reserva:</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="texto" id="nombre" name="nombre" placeholder="Ej: Pedro" required> <br><br>
+                    <label for="email">Correo electronico:</label>
+                    <input type="texto" id="email" name="email" placeholder="Ej: Pedro@gmail.com" required> <br><br>
+                    <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha" name="fecha" required> <br><br>
+                    <label for="hora">Hora</label>
+                    <input type="time" id="hora" name="hora" required> <br><br>
+                    <label for="cantidad_de_personas">Cantidad de personas</label>
+                    <input type="number" id="cantidad_de_personas" name="cantidad_de_personas" placeholder="Ej: 2" required min="1" max="40"> <br><br>
+                    <label for="comentario">Comentario adicional</label><br>
+                    <textarea id="comentario" name="Comentario" rows="6"
+                        placeholder="Ej: Observaciones con respecto a tu reserva, ubicacion de mesa, restricciones del menú, etc."></textarea><br>
+                    <button type="submit">Reservar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 La buena mesa - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
